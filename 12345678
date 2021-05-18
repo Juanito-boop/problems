@@ -1,0 +1,220 @@
+Pelicula = input('Hola, Que pelicula desea ver?: \nAccion(a) \nComedia(b) \nDocumental(c) \nTerror(d) \n');
+
+if Pelicula == ('e''E''f''F''g''G''h''H''i''I''j''J''k''K''l''L''m''M''n''N''ñ''Ñ''o''O''p''P''q''Q''r''R''s''S''t''T''u''U''v''V''w''W''x''X''y''Y''z''Z'):
+  print('No ha ingresado un valor correspondiente a una de las categorias de pelicula')
+
+if Pelicula == ('a' or 'Accion') or ('A' or 'accion'):
+  accion = input(
+      'Cual de estas categorias de accion desea ver?: \nPolicias (a) \nEspacio (b) \nDesastres (c) \n')
+if accion == 'a' or 'A':
+    policias = input(
+        'Cual de estas dos peliculas desea?: \nDuro de matar (a) \nSwat (b) \n')
+    if policias == 'a' or 'A':
+      print('Usted ha elegido Duro de matar, Tenga un buen dia...')
+
+if Pelicula == ('a' or 'Accion') or ('A' or 'accion'):
+  accion = input(
+      'Cual de estas categorias de accion desea ver?: \nPolicias (a) \nEspacio (b) \nDesastres (c) \n')
+if accion == 'a' or 'A':
+    policias = input(
+        'Cual de estas dos peliculas desea?: \nDuro de matar (a) \nSwat (b) \n')
+    if policias == 'b' or 'B':
+      print('Usted ha elegido Swat, Tenga un buen dia...')
+
+if Pelicula == ('a' or 'Accion') or ('A' or 'accion'):
+  accion = input(
+      'Cual de estas categorias de accion desea ver?: \nPolicias (a) \nEspacio (b) \nDesastres (c) \n')
+  if accion == 'b' or 'B':
+    espacio = input(
+        'Cual de estas dos peliculas desea?: \nOdisea Espacial (a) \nGravedad (b) \n')
+    if policias == 'a' or 'A':
+      print('Usted ha elegido Odisea Espacial, Tenga un buen dia...')
+
+if Pelicula == ('a' or 'Accion') or ('A' or 'accion'):
+  accion = input(
+      'Cual de estas categorias de accion desea ver?: \nPolicias (a) \nEspacio (b) \nDesastres (c) \n')
+  if accion == 'b' or 'B':
+    espacio = input(
+        'Cual de estas dos peliculas desea?: \nOdisea Espacial (a) \nGravedad (b) \n')
+    if policias == 'b' or 'B':
+      print('Usted ha elegido Gravedad, Tenga un buen dia...')
+
+if Pelicula == ('a' or 'Accion') or ('A' or 'accion'):
+  accion = input(
+      'Cual de estas categorias de accion desea ver?: \nPolicias (a) \nEspacio (b) \nDesastres (c) \n')
+  if accion == 'c' or 'C':
+    desastres = input(
+        'Cual de estas dos peliculas desea?: \nTerremotos (a) \n2012 (b) \n')
+    if desastres == 'a' or 'A':
+      print('Usted ha elegido Terremotos, Tenga un buen dia...')
+
+if Pelicula == ('a' or 'Accion') or ('A' or 'accion'):
+  accion = input(
+      'Cual de estas categorias de accion desea ver?: \nPolicias (a) \nEspacio (b) \nDesastres (c) \n')
+  if accion == 'c' or 'C':
+    desastres = input(
+        'Cual de estas dos peliculas desea?: \nTerremotos (a) \n2012 (b) \n')
+    if desastres == 'b' or 'B':
+      print('Usted ha elegido 2012, Tenga un buen dia...')
+
+if Pelicula == ('b' or 'Comedia') or ('B' or 'comedia'):
+  comedia = input(
+      'Cual de estas categorias de comedia desea ver?: \nFamiliar (a) \nPareja (b) \nStand - UP (c) \n')
+  if comedia == 'a' or 'A':
+    familiar = input(
+        'Cual de estas dos peliculas desea?: \nLa Familia de Mi Esposo (a) \nBabe (b) \n')
+    if familiar == 'a' or 'A':
+      print('Usted ha elegido La Familia De Mi Esposo, Tenga un buen dia...')
+
+if Pelicula == ('b' or 'Comedia') or ('B' or 'comedia'):
+  comedia = input(
+      'Cual de estas categorias de comedia desea ver?: \nFamiliar (a) \nPareja (b) \nStand - UP (c) \n')
+  if comedia == 'a' or 'A':
+    familiar = input(
+        'Cual de estas dos peliculas desea?: \nLa Familia de Mi Esposo (a) \nBabe (b) \n')
+    if familiar == 'b' or 'B':
+      print('Usted ha elegido Babe, Tenga un buen dia...')
+
+if Pelicula == ('b' or 'Comedia') or ('B' or 'comedia'):
+  comedia = input(
+      'Cual de estas categorias de comedia desea ver?: \nFamiliar (a) \nPareja (b) \nStand - UP (c) \n')
+  if comedia == 'b' or 'B':
+    pareja = input(
+        'Cual de estas dos peliculas desea?: \nCasados Por Accidente (a) \nMi Novia Polly (b) \n')
+    if pareja == 'a' or 'A':
+      print('Usted ha elegido Casados Por Accidente, Tenga un buen dia...')
+
+if Pelicula == ('b' or 'Comedia') or ('B' or 'comedia'):
+  comedia = input(
+      'Cual de estas categorias de comedia desea ver?: \nFamiliar (a) \nPareja (b) \nStand - UP (c) \n')
+  if comedia == 'b' or 'B':
+    pareja = input(
+        'Cual de estas dos peliculas desea?: \nCasados Por Accidente (a) \nMi Novia Polly (b) \n')
+    if pareja == 'b' or 'B':
+      print('Usted ha elegido Mi Novia Polly, Tenga un buen dia...')
+
+if Pelicula == ('b' or 'Comedia') or ('B' or 'comedia'):
+  comedia = input(
+      'Cual de estas categorias de comedia desea ver?: \nFamiliar (a) \nPareja (b) \nStand - UP (c) \n')
+  if comedia == 'c' or 'C':
+    standUP = input(
+        'Cual de estas dos peliculas desea?: \nLa Pelota De Letras (a) \nEl Aguila Descalza (b) \n')
+    if standUP == 'a' or 'A':
+      print('Usted ha elegido La Pelota De Letras, Tenga un buen dia...')
+
+if Pelicula == ('b' or 'Comedia') or ('B' or 'comedia'):
+  comedia = input(
+      'Cual de estas categorias de comedia desea ver?: \nFamiliar (a) \nPareja (b) \nStand - UP (c) \n')
+  if comedia == 'c' or 'C':
+    standUP = input(
+        'Cual de estas dos peliculas desea?: \nLa Pelota De Letras (a) \nEl Aguila Descalza (b) \n')
+    if standUP == 'b' or 'B':
+      print('Usted ha elegido El Aguila Descalza, Tenga un buen dia...')
+
+if Pelicula == ('c' or 'Documental') or ('C' or 'documental'):
+  documental = input(
+      'Cual de estas categorias de documental desea ver?: \nPolitico (a) \nCientifico (b) \nSocial (c) \n')
+  if documental == 'a' or 'A':
+    politico = input(
+        'Cual de estas dos peliculas desea?: \nLa Caida (a) \nEl Imperio Romano (b) \n')
+    if politico == 'a' or 'A':
+      print('Usted ha elegido La Caida, Tenga un buen dia...')
+
+if Pelicula == ('c' or 'Documental') or ('C' or 'documental'):
+  documental = input(
+      'Cual de estas categorias de documental desea ver?: \nPolitico (a) \nCientifico (b) \nSocial (c) \n')
+  if documental == 'a' or 'A':
+    politico = input(
+        'Cual de estas dos peliculas desea?: \nLa Caida (a) \nEl Imperio Romano (b) \n')
+    if politico == 'b' or 'B':
+      print('Usted ha elegido El Imperio Romano, Tenga un buen dia...')
+
+if Pelicula == ('c' or 'Documental') or ('C' or 'documental'):
+  documental = input(
+      'Cual de estas categorias de documental desea ver?: \nPolitico (a) \nCientifico (b) \nSocial (c) \n')
+  if documental == 'b' or 'B':
+    cientifico = input(
+        'Cual de estas dos peliculas desea?: \nCosmos (a) \nEl Atomo (b) \n')
+    if cientifico == 'a' or 'A':
+      print('Usted ha elegido Cosmos, Tenga un buen dia...')
+
+if Pelicula == ('c' or 'Documental') or ('C' or 'documental'):
+  documental = input(
+      'Cual de estas categorias de documental desea ver?: \nPolitico (a) \nCientifico (b) \nSocial (c) \n')
+  if documental == 'b' or 'B':
+    cientifico = input(
+        'Cual de estas dos peliculas desea?: \nCosmos (a) \nEl Atomo (b) \n')
+    if cientifico == 'b' or 'B':
+      print('Usted ha elegido El Atomo, Tenga un buen dia...')
+
+if Pelicula == ('c' or 'Documental') or ('C' or 'documental'):
+  documental = input(
+      'Cual de estas categorias de documental desea ver?: \nPolitico (a) \nCientifico (b) \nSocial (c) \n')
+  if documental == 'c' or 'C':
+    social = input(
+        'Cual de estas dos peliculas desea?: \nEl Sendero De La Anaconda (a) \nEl Abrazo De La Serpiente (b) \n')
+    if social == 'a' or 'A':
+      print('Usted ha elegido El Sendero De La Anaconda, Tenga un buen dia...')
+
+if Pelicula == ('c' or 'Documental') or ('C' or 'documental'):
+  documental = input(
+      'Cual de estas categorias de documental desea ver?: \nPolitico (a) \nCientifico (b) \nSocial (c) \n')
+  if documental == 'c' or 'C':
+    social = input(
+        'Cual de estas dos peliculas desea?: \nEl Sendero De La Anaconda (a) \nEl Abrazo De La Serpiente (b) \n')
+    if social == 'b' or 'B':
+      print('Usted ha elegido El Abrazo De La Serpiente, Tenga un buen dia...')
+
+if Pelicula == ('d' or 'Terror') or ('D' or 'terror'):
+  terror = input(
+      'Cual de estas categorias de terror desea ver?: \nAnimales (a) \nZombies (b) \nFantasmas (c) \n')
+  if terror == 'a' or 'A':
+    animales = input(
+        'Cual de estas dos peliculas desea?: \nTiburon (a) \nMegalodon (b) \n')
+    if animales == 'a' or 'A':
+      print('Usted ha elegido Tiburon, Tenga un buen dia...')
+
+if Pelicula == ('d' or 'Terror') or ('D' or 'terror'):
+  terror = input(
+      'Cual de estas categorias de terror desea ver?: \nAnimales (a) \nZombies (b) \nFantasmas (c) \n')
+  if terror == 'a' or 'A':
+    animales = input(
+        'Cual de estas dos peliculas desea?: \nTiburon (a) \nMegalodon (b) \n')
+    if animales == 'b' or 'B':
+      print('Usted ha elegido Megalodon, Tenga un buen dia...')
+
+if Pelicula == ('d' or 'Terror') or ('D' or 'terror'):
+  terror = input(
+      'Cual de estas categorias de terror desea ver?: \nAnimales (a) \nZombies (b) \nFantasmas (c) \n')
+  if terror == 'b' or 'B':
+    zombies = input(
+        'Cual de estas dos peliculas desea?: \nGuerra Mundial Z (a) \nZombies atacan (b) \n')
+    if zombies == 'a' or 'A':
+      print('Usted ha elegido Guerra Mundial Z, Tenga un buen dia...')
+
+if Pelicula == ('d' or 'Terror') or ('D' or 'terror'):
+  terror = input(
+      'Cual de estas categorias de terror desea ver?: \nAnimales (a) \nZombies (b) \nFantasmas (c) \n')
+  if terror == 'b' or 'B':
+    zombies = input(
+        'Cual de estas dos peliculas desea?: \nGuerra Mundial Z (a) \nZombies Atacan (b) \n')
+    if zombies == 'b' or 'B':
+      print('Usted ha elegido Zombies Atacan, Tenga un buen dia...')
+
+if Pelicula == ('d' or 'Terror') or ('D' or 'terror'):
+  terror = input(
+      'Cual de estas categorias de terror desea ver?: \nAnimales (a) \nZombies (b) \nFantasmas (c) \n')
+  if terror == 'c' or 'C':
+    fantasmas = input(
+        'Cual de estas dos peliculas desea?: \nAnabelle (a) \nlos Cazafantasmas (b) \n')
+    if fantasmas == 'a' or 'A':
+      print('Usted ha elegido Anabelle, Tenga un buen dia...')
+
+if Pelicula == ('d' or 'Terror') or ('D' or 'terror'):
+  terror = input(
+      'Cual de estas categorias de terror desea ver?: \nAnimales (a) \nZombies (b) \nFantasmas (c) \n')
+  if terror == 'c' or 'C':
+    fantasmas = input(
+        'Cual de estas dos peliculas desea?: \nAnabelle (a) \nlos Cazafantasmas (b) \n')
+    if fantasmas == 'b' or 'B':
+      print('Usted ha elegido Los Cazafantasmas, Tenga un buen dia...')
